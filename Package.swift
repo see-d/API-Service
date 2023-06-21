@@ -25,5 +25,6 @@ let package = Package(
         .testTarget(
             name: "API-ServiceTests",
             dependencies: ["API-Service"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v4]
 )
